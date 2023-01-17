@@ -28,9 +28,10 @@ public class Shape {
 
     @Override
     public String toString() {
+        String c=filled ?"Filled": "No Filled";
         return "Shape{" +
                 "color='" + color + '\'' +
-                ", filled=" + filled +
+                ", filled=" + c +
                 '}';
     }
 
