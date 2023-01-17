@@ -18,7 +18,19 @@ public class Square extends Rectangle{
     }
 
     @Override
+    public double getArea() {
+        return getSide()*getSide();
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 4*getSide();
+    }
+
+    @Override
     public String toString() {
         return "A Square with side="+getSide();
     }
+
+
 }
