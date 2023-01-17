@@ -9,7 +9,7 @@ public class Square extends Rectangle{
     }
 
     public double getSide(){
-        return (super.getWidth()*4)/4;
+        return super.getWidth();
     }
 
     public void setSide(double width){
