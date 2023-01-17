@@ -10,5 +10,7 @@ public class Main {
 
         Square square=new Square(10);
         System.out.println("Square Side :"+square.getSide());
+        System.out.println("Square Area :"+square.getArea());
+        System.out.println("Square Perimeter :"+square.getPerimeter());
     }
 }
